@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NusantaraCoffee</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,700&display=swap"
+      rel="stylesheet" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="logo" href="#">Nusantara<span>Coffee</span>.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li><i class="bi bi-cup-hot-fill" id="toogle-dark"></i></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--hero section-->
+    <section class="hero">
+      <main>
+        <div class="hero-content">
+          <h1>Selamat Datang di Nusantara<span>Coffee</span></h1>
+          <p>Nikmati kopi terbaik kami dengan rasa yang lezat</p>
+          <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+        </div>
+      </main>
+    </section>
+    <!--menu section-->
+    <section class="menu" id="menu">
+      <div class="menu-heading">
+        <h2>Menu Kami</h2>
+        <p>Nikmati kopi berkualitas dari biji kopi terbaik kami.</p>
+      </div>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img
+            src="https://rencanamu.id/assets/file_uploaded/editor/1551185691-set-fusion.jpg"
+            alt="Menu Item 1" />
+          <h3>Espresso</h3>
+          <p>
+            Espresso merupakan ekstrak biji kopi yang dimana biji kopi ini
+            diproses menggunakan mesin bertekanan tinggi.
+          </p>
+          <span>Rp 20.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://rencanamu.id/assets/file_uploaded/editor/1551185749-gettyimage.jpg"
+            alt="Menu Item 2" />
+          <h3>Latte</h3>
+          <p>
+            latte ini disajikan dengan cara menuangkan susu panas ke dalam
+            cangkir yang sudah berisi espresso.
+          </p>
+          <span>Rp 25.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://rencanamu.id/assets/file_uploaded/editor/1551185796-homemade-m.jpg"
+            alt="Menu Item 3" />
+          <h3>Mocha</h3>
+          <p>
+            Mocha ini memiliki campuran yaitu espresso, susu dan coklat sehingga
+            rasa yang diciptakan ialah rasa manis dan aroma kopi.
+          </p>
+          <span>Rp 30.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://rencanamu.id/assets/file_uploaded/editor/1551185846-americano-.jpg"
+            alt="Menu Item 4" />
+          <h3>Americano</h3>
+          <p>
+            Americano minuman kopi dimana espresso akan dicampurkan dengan air
+            panas sehingga rasa espresso yang pahit tidak terlalu mencolok.
+          </p>
+          <span>Rp 35.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://assets-pergikuliner.com/uploads/bootsy/image/10532/medium_pastry.JPG"
+            alt="Menu Item 5" />
+          <h3>Pastry</h3>
+          <p>
+            pastry justru memiliki beragam pilihan rasa dari gurih atau asin
+            hingga manis.
+          </p>
+          <span>Rp 15.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://assets-pergikuliner.com/uploads/bootsy/image/10531/medium_pasta.JPG"
+            alt="Menu Item 6" />
+          <h3>Pasta</h3>
+          <p>
+            pasta jenis spagheti yang simple seperti spagheti aglio olio,
+            carbonara, dan bolognaise.
+          </p>
+          <span>Rp 30.000</span>
+          <button type="submit">Buy</button>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://assets-pergikuliner.com/uploads/bootsy/image/19400/medium_kentang_goreng.jpg"
+            alt="Menu Item 7" />
+          <h3>friench fries</h3>
+          <p>
+            kentang goreng memiliki porsi yang cukup banyak sehingga bisa
+            dimakan beramai-ramai.
+          </p>
+          <span>Rp 30.000</span>
+          <button type="submit">Buy</button>
+        </div>
+      </div>
+    </section>
+    <!--about section-->
+    <section class="about-section" id="about">
+      <h2>About Us</h2>
+      <img
+        src="https://images.unsplash.com/photo-1525193612562-0ec53b0e5d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="about" />
+      <p>
+        We are a small coffee shop located in the heart of the city. Our mission
+        is to provide our customers with the best coffee experience possible. We
+        use only the finest beans and ingredients in our drinks, and our
+        baristas are highly trained professionals who are passionate about
+        coffee.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </section>
+    <!--contact section-->
+    <section class="contact-section" id="contact">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>
+          Fill out the form and our team will get back to you within 24 hours.
+        </p>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit" class="button">Send</button>
+        </form>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.441849486449!2d106.79196641530931!3d-6.172135295528533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42af8a48819%3A0xa0d550a22daee12!2sGrand%20Indonesia%20Mall!5e0!3m2!1sen!2sid!4v1620172236331!5m2!1sen!2sid"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="social-media">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home"> Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credits">&copy; 2023 PrasetyoTriU. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="scripttoogle.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
